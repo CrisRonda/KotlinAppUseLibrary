@@ -11,6 +11,6 @@ class MainActivity : ToolbarActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        toolbarToLoad(toolbar as Toolbar)
+        hola() //metodo de la libreria
     }
 }

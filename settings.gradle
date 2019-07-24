@@ -1,1 +1,3 @@
-include ':app', ':mylibrary-debug'
+include ':app', ':mylibrary'
+project(':mylibrary').projectDir= new File('../MyLibraryAndroid/mylibrary')
+// En new File poner tu path a la libreria
